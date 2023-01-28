@@ -1,0 +1,18 @@
+<h1>{{tittle}}</h1>
+
+<hr>
+
+<p>Event Binding</p>
+<button (click)="hide()">hide</button>
+<div *ngIf="ver">
+    <p>Event binding es el mecanismo de data mediante el cual trabaja con los eventos que se encuentran en el DOM</p>
+</div>
+
+<hr>
+
+<p>Two way binding</p>
+
+<p>{{twoway}}</p>
+
+<textarea [(ngModel)]="twoway" name="message" rows="10" cols="30">{{twoway}}</textarea>
+
